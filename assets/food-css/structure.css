@@ -1,0 +1,126 @@
+.container{
+    padding: 100px;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;
+}
+.center-div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 56px;
+    list-style: none;
+}
+.center-div li a{
+    text-decoration: none;
+    color: var(--letter);
+}
+.hero .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero .left-div{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hero .left-div p{
+    font: size 24px;
+    margin: 25px 0 30px;
+}
+.hero .left-div h1{
+    font-family: 'Koh Santepheap';
+}
+.sobre .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sobre .right-div{
+    width: 550px;
+}
+.sobre .title-red{
+    font-size: 24px;
+}
+.populares .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.populares h1{
+    align-self: center;
+}
+.pratos{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.prato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 384px;
+    background-color: var(--third);
+    border-radius: 16px;
+    margin-top: 200px;
+    justify-content: center;
+    padding: 20px;
+    gap: 25px;
+}
+.prato-foto{
+    margin-top: -150px;
+}
+.prato h1{
+    font-size: 25px;
+}
+.comentarios .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    width: 500px;
+    padding: 32px 40px;
+    border-radius: 16px;
+    background-color: var(--third);
+}
+.card h1{
+    margin: 10px 0;
+}
+.card p{
+    margin: 10px 0;
+}
+.footer .container{
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer h1{
+    font-weight: normal;
+}
+.footer .coluna p{
+    margin-top: 20px;
+}
+.line{
+    display: flex;
+    margin: 50px 100px;
+    background-color: gainsboro;
+    height: 3px;
+}
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 100px 10px;
+}
